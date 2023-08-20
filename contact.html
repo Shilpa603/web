@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+  </head>
+
+  <body>
+
+    <h1>contact detail</h1>
+    <fieldset <legend>Your Information</legend>
+
+      <form action="mailto:shilpa.khatri307@gmail.com?subject=info" method="post" enctype="text/plain">
+        <p>
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" placeholder="enter email" required>
+        </p>
+        <p>
+          <label for="name">username</label>
+          <input type="text" name="name" id="name">
+        </p>
+
+        <p>
+        <h4>please select your gender</h4>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        </p>
+
+        <p>
+        <h4>please select your habit</h4>
+        <label for="dance">dance</label>
+        <input type="checkbox" name="habits" id="dance" value="dance">
+
+        <label for="sing">sing</label>
+        <input type="checkbox" name="habits" id="sing" value="sing">
+        </p>
+
+        <p>
+        <p>
+        <h4>please select your fav coffee</h4>
+
+        <select name="coffee" id="coffee">
+          <option value="latte">latte</option>
+          <option value="americano">americano</option>
+          <option value="cappuccino">cappuccino</option>
+
+        </select>
+
+        <select name="coffee" id="coffee">
+          <optgroup label="strong coffee">
+            <option value="expresso">expresso</option>
+            <option value="moch">mochiyato</option>
+          </optgroup>
+
+          <optgroup label="light coffee">
+            <option value="latte">latte</option>
+            <option value="capp">cappuccino</option>
+          </optgroup>
+
+        </select>
+        </p>
+        <textarea name="messege" id="" cols="40" rows="10"></textarea>
+
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+      </form>
+    </fieldset>
+
+  </body>
+
+</html>
